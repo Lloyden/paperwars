@@ -2,6 +2,11 @@ namespace PaperWards.API;
 
 public class RequestHandler
 {
+    public bool Ping()
+    {
+        return true;
+    }
+    
     public Task StartGame(HttpContext ctx)
     {
         /*

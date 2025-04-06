@@ -6,9 +6,10 @@ namespace PaperWars.Client;
 
 public class RestHelper
 {
-    public static async Task<T> CallAsync<T>(HttpMethod method, string url, object request)
+    public static async Task<T> CallAsync<T>(HttpMethod method, string url, object request = null)
     {
-        return await ResponseCheckAsync<T>(await MakeCallAsync(url, method, SerializationHelper.SerializeToCamelCaseJson(request)));
+        var body = request != null ? SerializationHelper.SerializeToCamelCaseJson(request) : null;
+        return await ResponseCheckAsync<T>(await MakeCallAsync(url, method, body));
     }
     
     private static bool Fail(string reason)
@@ -17,7 +18,7 @@ public class RestHelper
         return false;
     }
 
-    private static async Task<HttpResponseMessage> MakeCallAsync(string url, HttpMethod method, string body = null, string cookie = null)
+    private static async Task<HttpResponseMessage> MakeCallAsync(string url, HttpMethod method, string body = null)
     {
         HttpClientHandler clientHandler = new HttpClientHandler();
         clientHandler.ServerCertificateCustomValidationCallback = (sender, cert, chain, sslPolicyErrors) => { return true; };
@@ -36,21 +37,14 @@ public class RestHelper
                 { "Accept", "*/*" },
                 { "Connection", "keep-alive" },
                 { "User-Agent", "Rider" },
-                { "Accept-Encoding", "gzip,deflate,br" },
-                { "Host", "svenskaspel.se" }
+                { "Accept-Encoding", "gzip,deflate,br" }
             }
         };
-        
-        if(string.IsNullOrEmpty(cookie))
-            request.Headers.Add("Cookie", "svssid=bc2e7159-7217-4e70-b654-2c8c49aa62c9; Path=/; Domain=retail.test3.svenskaspel.se; HttpOnly;");
-        else
-            request.Headers.Add("Cookie", cookie);
         
         if (body != null)
             request.Content = new StringContent(body, Encoding.UTF8, "application/json"); //CONTENT-TYPE header
         
-        var response = await client.SendAsync(request);
-        return response;
+        return await client.SendAsync(request);
     }
     
     private static async Task<T> ResponseCheckAsync<T>(HttpResponseMessage response)

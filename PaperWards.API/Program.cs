@@ -9,7 +9,8 @@ builder.Services.AddScoped<IEngine, Engine>();
 var webApp = new RequestHandler();
 var app = builder.Build();
 
-app.MapPost("/start",ctx => { return webApp.StartGame(ctx); });
+app.MapGet("/ping", webApp.Ping); 
+app.MapPost("/start",ctx => webApp.StartGame(ctx));
 
 app.Run();
 
