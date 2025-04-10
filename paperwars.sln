@@ -1,12 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaperWards.DataObjects", "PaperWards.DataObjects\PaperWards.DataObjects.csproj", "{8CF574D7-C20E-4B83-BB34-5DD1338B4C0D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaperWars.DataObjects", "PaperWars.DataObjects\PaperWars.DataObjects.csproj", "{8CF574D7-C20E-4B83-BB34-5DD1338B4C0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaperWards.DataAccess", "PaperWards.DataAccess\PaperWards.DataAccess.csproj", "{9885722D-2094-4E24-8B0B-8FBD1DA4D3DB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaperWars.DataAccess", "PaperWars.DataAccess\PaperWars.DataAccess.csproj", "{9885722D-2094-4E24-8B0B-8FBD1DA4D3DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaperWards.API", "PaperWards.API\PaperWards.API.csproj", "{A3A541E7-9EA6-4172-B78B-75C24E31557F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaperWards.GameEngine", "PaperWards.GameEngine\PaperWards.GameEngine.csproj", "{E7E4C154-5F18-45A8-AF29-46A97471ECA4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaperWars.GameEngine", "PaperWars.GameEngine\PaperWars.GameEngine.csproj", "{E7E4C154-5F18-45A8-AF29-46A97471ECA4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaperWars.Client", "PaperWars.Client\PaperWars.Client.csproj", "{07499678-B40C-42B8-9E5C-EA2AE2BB1523}"
 EndProject
@@ -26,10 +24,6 @@ Global
 		{9885722D-2094-4E24-8B0B-8FBD1DA4D3DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9885722D-2094-4E24-8B0B-8FBD1DA4D3DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9885722D-2094-4E24-8B0B-8FBD1DA4D3DB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A3A541E7-9EA6-4172-B78B-75C24E31557F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A3A541E7-9EA6-4172-B78B-75C24E31557F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A3A541E7-9EA6-4172-B78B-75C24E31557F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A3A541E7-9EA6-4172-B78B-75C24E31557F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E7E4C154-5F18-45A8-AF29-46A97471ECA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E7E4C154-5F18-45A8-AF29-46A97471ECA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7E4C154-5F18-45A8-AF29-46A97471ECA4}.Release|Any CPU.ActiveCfg = Release|Any CPU

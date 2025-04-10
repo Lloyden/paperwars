@@ -8,7 +8,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\PaperWards.DataObjects\PaperWards.DataObjects.csproj" />
+      <ProjectReference Include="..\PaperWars.DataObjects\PaperWars.DataObjects.csproj" />
+      <ProjectReference Include="..\PaperWars.GameEngine\PaperWars.GameEngine.csproj" />
       <ProjectReference Include="..\PaperWars.Utils\PaperWars.Utils.csproj" />
     </ItemGroup>
 

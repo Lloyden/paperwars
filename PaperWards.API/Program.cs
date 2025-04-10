@@ -6,6 +6,11 @@ var builder = WebApplication.CreateSlimBuilder(args);
 
 builder.Services.AddScoped<IEngine, Engine>();
 
+builder.Services.ConfigureHttpJsonOptions(options =>
+{
+    options.SerializerOptions.TypeInfoResolverChain.Insert(0, AppJsonSerializerContext.Default);
+});
+
 var webApp = new RequestHandler();
 var app = builder.Build();
 

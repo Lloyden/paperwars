@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PaperWars.Client")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0788669d5ed993ac5c554c1e3c0a205b762faecf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a4fa767154663875226a4040261b537464ebf313")]
 [assembly: System.Reflection.AssemblyProductAttribute("PaperWars.Client")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PaperWars.Client")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

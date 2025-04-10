@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>PaperWards.GameEngine</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\PaperWars.DataAccess\PaperWars.DataAccess.csproj" />
+      <ProjectReference Include="..\PaperWars.DataObjects\PaperWars.DataObjects.csproj" />
+    </ItemGroup>
+
+</Project>

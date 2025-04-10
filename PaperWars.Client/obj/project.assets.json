@@ -57,7 +57,17 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "PaperWards.DataObjects/1.0.0": {
+      "PaperWars.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/PaperWars.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PaperWars.DataAccess.dll": {}
+        }
+      },
+      "PaperWars.DataObjects/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
@@ -65,10 +75,24 @@
           "PaperWars.Utils": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/PaperWards.DataObjects.dll": {}
+          "bin/placeholder/PaperWars.DataObjects.dll": {}
         },
         "runtime": {
-          "bin/placeholder/PaperWards.DataObjects.dll": {}
+          "bin/placeholder/PaperWars.DataObjects.dll": {}
+        }
+      },
+      "PaperWars.GameEngine/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "PaperWars.DataAccess": "1.0.0",
+          "PaperWars.DataObjects": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PaperWars.GameEngine.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PaperWars.GameEngine.dll": {}
         }
       },
       "PaperWars.Utils/1.0.0": {
@@ -168,10 +192,20 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "PaperWards.DataObjects/1.0.0": {
+    "PaperWars.DataAccess/1.0.0": {
       "type": "project",
-      "path": "../PaperWards.DataObjects/PaperWards.DataObjects.csproj",
-      "msbuildProject": "../PaperWards.DataObjects/PaperWards.DataObjects.csproj"
+      "path": "../PaperWars.DataAccess/PaperWars.DataAccess.csproj",
+      "msbuildProject": "../PaperWars.DataAccess/PaperWars.DataAccess.csproj"
+    },
+    "PaperWars.DataObjects/1.0.0": {
+      "type": "project",
+      "path": "../PaperWars.DataObjects/PaperWars.DataObjects.csproj",
+      "msbuildProject": "../PaperWars.DataObjects/PaperWars.DataObjects.csproj"
+    },
+    "PaperWars.GameEngine/1.0.0": {
+      "type": "project",
+      "path": "../PaperWars.GameEngine/PaperWars.GameEngine.csproj",
+      "msbuildProject": "../PaperWars.GameEngine/PaperWars.GameEngine.csproj"
     },
     "PaperWars.Utils/1.0.0": {
       "type": "project",
@@ -181,7 +215,8 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "PaperWards.DataObjects >= 1.0.0",
+      "PaperWars.DataObjects >= 1.0.0",
+      "PaperWars.GameEngine >= 1.0.0",
       "PaperWars.Utils >= 1.0.0"
     ]
   },
@@ -210,8 +245,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/home/lloyd/RiderProjects/paperwars/PaperWards.DataObjects/PaperWards.DataObjects.csproj": {
-              "projectPath": "/home/lloyd/RiderProjects/paperwars/PaperWards.DataObjects/PaperWards.DataObjects.csproj"
+            "/home/lloyd/RiderProjects/paperwars/PaperWars.DataObjects/PaperWars.DataObjects.csproj": {
+              "projectPath": "/home/lloyd/RiderProjects/paperwars/PaperWars.DataObjects/PaperWars.DataObjects.csproj"
+            },
+            "/home/lloyd/RiderProjects/paperwars/PaperWars.GameEngine/PaperWars.GameEngine.csproj": {
+              "projectPath": "/home/lloyd/RiderProjects/paperwars/PaperWars.GameEngine/PaperWars.GameEngine.csproj"
             },
             "/home/lloyd/RiderProjects/paperwars/PaperWars.Utils/PaperWars.Utils.csproj": {
               "projectPath": "/home/lloyd/RiderProjects/paperwars/PaperWars.Utils/PaperWars.Utils.csproj"
