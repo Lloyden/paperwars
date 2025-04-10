@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PaperWards.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0788669d5ed993ac5c554c1e3c0a205b762faecf")]
 [assembly: System.Reflection.AssemblyProductAttribute("PaperWards.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PaperWards.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

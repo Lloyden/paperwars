@@ -9,7 +9,7 @@
       "PaperWards.API/1.0.0": {
         "dependencies": {
           "Microsoft.DotNet.ILCompiler": "8.0.13",
-          "Microsoft.NET.ILLink.Tasks": "9.0.2",
+          "Microsoft.NET.ILLink.Tasks": "9.0.3",
           "PaperWards.DataObjects": "1.0.0",
           "PaperWards.GameEngine": "1.0.0"
         },
@@ -49,7 +49,7 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/9.0.2": {},
+      "Microsoft.NET.ILLink.Tasks/9.0.3": {},
       "PaperWards.DataAccess/1.0.0": {
         "runtime": {
           "PaperWards.DataAccess.dll": {
@@ -126,12 +126,12 @@
       "path": "microsoft.extensions.primitives/9.0.3",
       "hashPath": "microsoft.extensions.primitives.9.0.3.nupkg.sha512"
     },
-    "Microsoft.NET.ILLink.Tasks/9.0.2": {
+    "Microsoft.NET.ILLink.Tasks/9.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+KFnCLVPicEq99ko0tq+ycTvNLXHw0tImmTZjPloB/DOFLPT56KLfk5aS7wbgXRPzYhXTTBYLGaABea5mke77w==",
-      "path": "microsoft.net.illink.tasks/9.0.2",
-      "hashPath": "microsoft.net.illink.tasks.9.0.2.nupkg.sha512"
+      "sha512": "sha512-1rqGTfubVg0qj2PsK6esyq3PIxtYJYrN3LsYUV9RrvH3anmt3fT3ozYdAZZH4U8JU/pt5pPIUk8NBSu26wtekA==",
+      "path": "microsoft.net.illink.tasks/9.0.3",
+      "hashPath": "microsoft.net.illink.tasks.9.0.3.nupkg.sha512"
     },
     "PaperWards.DataAccess/1.0.0": {
       "type": "project",

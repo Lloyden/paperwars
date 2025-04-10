@@ -1,7 +1,7 @@
 ﻿using PaperWards.DataObjects;
 using PaperWars.Client;
 
-const string baseUrl = "https://localhost:5001";
+const string baseUrl = "https://localhost:5104";
 
 //Vänta in uppstart
 bool goodTogo = false;
