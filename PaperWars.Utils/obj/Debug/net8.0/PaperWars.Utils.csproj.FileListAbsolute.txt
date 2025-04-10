@@ -1,0 +1,12 @@
+/home/lloyd/RiderProjects/paperwars/PaperWars.Utils/bin/Debug/net8.0/PaperWars.Utils.deps.json
+/home/lloyd/RiderProjects/paperwars/PaperWars.Utils/bin/Debug/net8.0/PaperWars.Utils.dll
+/home/lloyd/RiderProjects/paperwars/PaperWars.Utils/bin/Debug/net8.0/PaperWars.Utils.pdb
+/home/lloyd/RiderProjects/paperwars/PaperWars.Utils/obj/Debug/net8.0/PaperWars.Utils.GeneratedMSBuildEditorConfig.editorconfig
+/home/lloyd/RiderProjects/paperwars/PaperWars.Utils/obj/Debug/net8.0/PaperWars.Utils.AssemblyInfoInputs.cache
+/home/lloyd/RiderProjects/paperwars/PaperWars.Utils/obj/Debug/net8.0/PaperWars.Utils.AssemblyInfo.cs
+/home/lloyd/RiderProjects/paperwars/PaperWars.Utils/obj/Debug/net8.0/PaperWars.Utils.csproj.CoreCompileInputs.cache
+/home/lloyd/RiderProjects/paperwars/PaperWars.Utils/obj/Debug/net8.0/PaperWars.Utils.sourcelink.json
+/home/lloyd/RiderProjects/paperwars/PaperWars.Utils/obj/Debug/net8.0/PaperWars.Utils.dll
+/home/lloyd/RiderProjects/paperwars/PaperWars.Utils/obj/Debug/net8.0/refint/PaperWars.Utils.dll
+/home/lloyd/RiderProjects/paperwars/PaperWars.Utils/obj/Debug/net8.0/PaperWars.Utils.pdb
+/home/lloyd/RiderProjects/paperwars/PaperWars.Utils/obj/Debug/net8.0/ref/PaperWars.Utils.dll

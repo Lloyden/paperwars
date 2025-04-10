@@ -1,0 +1,12 @@
+/home/lloyd/RiderProjects/paperwars/PaperWards.DataAccess/bin/Debug/net9.0/PaperWards.DataAccess.deps.json
+/home/lloyd/RiderProjects/paperwars/PaperWards.DataAccess/bin/Debug/net9.0/PaperWards.DataAccess.dll
+/home/lloyd/RiderProjects/paperwars/PaperWards.DataAccess/bin/Debug/net9.0/PaperWards.DataAccess.pdb
+/home/lloyd/RiderProjects/paperwars/PaperWards.DataAccess/obj/Debug/net9.0/PaperWards.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/home/lloyd/RiderProjects/paperwars/PaperWards.DataAccess/obj/Debug/net9.0/PaperWards.DataAccess.AssemblyInfoInputs.cache
+/home/lloyd/RiderProjects/paperwars/PaperWards.DataAccess/obj/Debug/net9.0/PaperWards.DataAccess.AssemblyInfo.cs
+/home/lloyd/RiderProjects/paperwars/PaperWards.DataAccess/obj/Debug/net9.0/PaperWards.DataAccess.csproj.CoreCompileInputs.cache
+/home/lloyd/RiderProjects/paperwars/PaperWards.DataAccess/obj/Debug/net9.0/PaperWards.DataAccess.sourcelink.json
+/home/lloyd/RiderProjects/paperwars/PaperWards.DataAccess/obj/Debug/net9.0/PaperWards.DataAccess.dll
+/home/lloyd/RiderProjects/paperwars/PaperWards.DataAccess/obj/Debug/net9.0/refint/PaperWards.DataAccess.dll
+/home/lloyd/RiderProjects/paperwars/PaperWards.DataAccess/obj/Debug/net9.0/PaperWards.DataAccess.pdb
+/home/lloyd/RiderProjects/paperwars/PaperWards.DataAccess/obj/Debug/net9.0/ref/PaperWards.DataAccess.dll

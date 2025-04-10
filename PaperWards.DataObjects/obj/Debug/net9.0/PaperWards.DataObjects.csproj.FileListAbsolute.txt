@@ -1,0 +1,16 @@
+/home/lloyd/RiderProjects/paperwars/PaperWards.DataObjects/bin/Debug/net9.0/PaperWards.DataObjects.deps.json
+/home/lloyd/RiderProjects/paperwars/PaperWards.DataObjects/bin/Debug/net9.0/PaperWards.DataObjects.dll
+/home/lloyd/RiderProjects/paperwars/PaperWards.DataObjects/bin/Debug/net9.0/PaperWards.DataObjects.pdb
+/home/lloyd/RiderProjects/paperwars/PaperWards.DataObjects/bin/Debug/net9.0/PaperWars.Utils.dll
+/home/lloyd/RiderProjects/paperwars/PaperWards.DataObjects/bin/Debug/net9.0/PaperWars.Utils.pdb
+/home/lloyd/RiderProjects/paperwars/PaperWards.DataObjects/obj/Debug/net9.0/PaperWards.DataObjects.csproj.AssemblyReference.cache
+/home/lloyd/RiderProjects/paperwars/PaperWards.DataObjects/obj/Debug/net9.0/PaperWards.DataObjects.GeneratedMSBuildEditorConfig.editorconfig
+/home/lloyd/RiderProjects/paperwars/PaperWards.DataObjects/obj/Debug/net9.0/PaperWards.DataObjects.AssemblyInfoInputs.cache
+/home/lloyd/RiderProjects/paperwars/PaperWards.DataObjects/obj/Debug/net9.0/PaperWards.DataObjects.AssemblyInfo.cs
+/home/lloyd/RiderProjects/paperwars/PaperWards.DataObjects/obj/Debug/net9.0/PaperWards.DataObjects.csproj.CoreCompileInputs.cache
+/home/lloyd/RiderProjects/paperwars/PaperWards.DataObjects/obj/Debug/net9.0/PaperWards.DataObjects.sourcelink.json
+/home/lloyd/RiderProjects/paperwars/PaperWards.DataObjects/obj/Debug/net9.0/PaperWar.313C84EC.Up2Date
+/home/lloyd/RiderProjects/paperwars/PaperWards.DataObjects/obj/Debug/net9.0/PaperWards.DataObjects.dll
+/home/lloyd/RiderProjects/paperwars/PaperWards.DataObjects/obj/Debug/net9.0/refint/PaperWards.DataObjects.dll
+/home/lloyd/RiderProjects/paperwars/PaperWards.DataObjects/obj/Debug/net9.0/PaperWards.DataObjects.pdb
+/home/lloyd/RiderProjects/paperwars/PaperWards.DataObjects/obj/Debug/net9.0/ref/PaperWards.DataObjects.dll

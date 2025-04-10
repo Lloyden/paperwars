@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "q1csmxYDdaA=",
+  "success": true,
+  "projectFilePath": "/home/lloyd/RiderProjects/paperwars/PaperWards.API/PaperWards.API.csproj",
+  "expectedPackageFiles": [
+    "/home/lloyd/.nuget/packages/microsoft.dotnet.ilcompiler/8.0.13/microsoft.dotnet.ilcompiler.8.0.13.nupkg.sha512",
+    "/home/lloyd/.nuget/packages/microsoft.extensions.configuration/9.0.3/microsoft.extensions.configuration.9.0.3.nupkg.sha512",
+    "/home/lloyd/.nuget/packages/microsoft.extensions.configuration.abstractions/9.0.3/microsoft.extensions.configuration.abstractions.9.0.3.nupkg.sha512",
+    "/home/lloyd/.nuget/packages/microsoft.extensions.primitives/9.0.3/microsoft.extensions.primitives.9.0.3.nupkg.sha512",
+    "/home/lloyd/.nuget/packages/microsoft.net.illink.tasks/9.0.3/microsoft.net.illink.tasks.9.0.3.nupkg.sha512",
+    "/home/lloyd/.nuget/packages/runtime.linux-x64.microsoft.dotnet.ilcompiler/8.0.13/runtime.linux-x64.microsoft.dotnet.ilcompiler.8.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}

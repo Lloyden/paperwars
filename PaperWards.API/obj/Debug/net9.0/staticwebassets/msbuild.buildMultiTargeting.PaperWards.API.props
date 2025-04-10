@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/PaperWards.API.props" />
+</Project>

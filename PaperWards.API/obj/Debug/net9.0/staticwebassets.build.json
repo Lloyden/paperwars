@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "ZeQWPcNXhyMhpk9Dzn6AmSM+FYQM/4sWlRht0TuQ+vQ=",
+  "Source": "PaperWards.API",
+  "BasePath": "_content/PaperWards.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
