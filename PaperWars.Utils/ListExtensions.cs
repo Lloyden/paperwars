@@ -12,14 +12,16 @@ public static class ListExtensions
             (list[k], list[n]) = (list[n], list[k]);
         }
     }
-}
-
-public static class ThreadSafeRandom
-{
-    [ThreadStatic] private static Random Local;
-
-    public static Random ThisThreadsRandom
+    
+    public static List<T> Draw<T>(this IList<T> list, int count)
     {
-        get { return Local ?? (Local = new Random(unchecked(Environment.TickCount * 31 + Thread.CurrentThread.ManagedThreadId))); }
+        var drawnItems = new List<T>();
+        for (int i = 0; i < count; i++)
+        {
+            if (list.Count == 0) break;
+            drawnItems.Add(list[0]);
+            list.RemoveAt(0);
+        }
+        return drawnItems;
     }
 }

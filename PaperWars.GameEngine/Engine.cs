@@ -1,5 +1,6 @@
 using System.Runtime.InteropServices;
 using PaperWards.DataObjects;
+using PaperWars.Utils;
 
 namespace PaperWards.GameEngine;
 
@@ -11,13 +12,22 @@ public class Engine : IEngine
 {
     public Engine()
     {
-        // Initialize any necessary components or services here
     }
     
     public void StartGame(Game game)
     {
         game.ReporterDeck = Reporter.CreateDeck();
         game.NewsDeck = NewsCard.CreateDeck();
-        //throw new NotImplementedException();
+        game.NewsAgencyDeck = NewsAgencyCard.CreateDeck();
+
+        game.ReporterPool = game.ReporterDeck.Draw(game.Players.Count);
+        game.NewsPool = game.NewsDeck.Draw(game.Players.Count+1);
+        game.NewsAgencyPool = game.NewsAgencyDeck.Draw(game.Players.Count+1);
+    }
+
+    public List<Player> SetTurnOrder(List<Player> players)
+    {
+        players.Shuffle();
+        return players;
     }
 }

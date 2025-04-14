@@ -22,6 +22,8 @@ public class Reporter
             };
             reporters.Add(reporter);
         }
+        
+        //TODO Freelancers and actual reporters
 
         reporters.Shuffle();
 
