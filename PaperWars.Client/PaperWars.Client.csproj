@@ -13,4 +13,9 @@
       <ProjectReference Include="..\PaperWars.Utils\PaperWars.Utils.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Goblinfactory.Konsole" Version="7.0.0.7-alpha" />
+      <PackageReference Include="Goblinfactory.Konsole.Windows" Version="5.0.0" />
+    </ItemGroup>
+
 </Project>
